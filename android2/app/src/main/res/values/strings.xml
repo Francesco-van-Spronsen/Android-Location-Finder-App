@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android2</string>
+
+    <string name="title_sign_in">Sign in</string>
+    <string name="title_sign_up">Sign up</string>
+    <string name="title_sign_out">Sign out</string>
+    <string name="title_create_account">Create your account today</string>
+
+    <string name="title_email">Email</string>
+    <string name="title_password">Password</string>
+    <string name="title_confirm_password">Confirm Password</string>
+
+    <string name="title_map">Map</string>
+    <string name="title_people">People</string>
+    <string name="title_compass">Compass</string>
+    <string name="title_profile">Profile</string>
+</resources>

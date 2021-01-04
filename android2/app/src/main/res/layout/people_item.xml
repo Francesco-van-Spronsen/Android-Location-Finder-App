@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/people_item_padding"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/people_item_padding">
+
+    <ImageView
+        android:id="@+id/people_picture"
+        android:layout_width="@dimen/people_picture"
+        android:layout_height="@dimen/people_picture"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/people_item_padding"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/people_picture">
+
+        <TextView
+            android:id="@+id/people_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/peopleName"
+            android:textSize="@dimen/people_name" />
+
+        <TextView
+            android:id="@+id/people_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/people_item_padding"
+            android:layout_below="@id/people_name"
+            android:textColor="@color/peopleLocation"
+            android:textSize="@dimen/people_location" />
+
+        <TextView
+            android:id="@+id/people_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/people_name"
+            android:layout_toRightOf="@id/people_latitude"
+            android:textColor="@color/peopleLocation"
+            android:textSize="@dimen/people_location" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
